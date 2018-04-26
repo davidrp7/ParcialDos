@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ParcialDos.iml" filepath="$PROJECT_DIR$/ParcialDos.iml" />
+      <module fileurl="file://D:\PARCIAL 2\ParcialDos-master\ParcialDos.iml" filepath="D:\PARCIAL 2\ParcialDos-master\ParcialDos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParcialDos-master.iml" filepath="$PROJECT_DIR$/ParcialDos-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\PARCIAL 2\ParcialDos-master\app\app.iml" filepath="D:\PARCIAL 2\ParcialDos-master\app\app.iml" />
     </modules>
   </component>
 </project>
