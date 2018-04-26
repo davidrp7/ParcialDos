@@ -42,12 +42,15 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
         return foodList.size();
     }
 
+
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView textViewFood;
 
-        public ViewHolder(View item) {
-            super(item);
+        public ViewHolder(View itemView) {
+            super(itemView);
         }
+
+
     }
 }

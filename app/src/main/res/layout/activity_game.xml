@@ -14,10 +14,12 @@
     </android.support.v7.widget.RecyclerView>
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/id_bt_volver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:src="@drawable/plus"
+        android:onClick="showGame"
         android:layout_margin="16dp"/>
 
 </android.support.design.widget.CoordinatorLayout>

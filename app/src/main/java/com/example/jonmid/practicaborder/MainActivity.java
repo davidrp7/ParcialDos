@@ -30,11 +30,8 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
     Button button;
     RecyclerView recyclerView;
-
     List<Food> foodList = new ArrayList<>();
-
     FoodAdapter foodAdapter;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (isOnLine()){
             TaskFood taskFood = new TaskFood();
-            taskFood.execute("http://services.groupkt.com/country/get/all");
+            taskFood.execute("http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=3");
         }else {
             Toast.makeText(this, "Sin conexion", Toast.LENGTH_SHORT).show();
         }
